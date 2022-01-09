@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <form action="form_handler.php" method="POST" >
+            <label>Email : <input type="email" placeholder="Email" id="email" name="email"></label><br><br>
+            <label>Password : <input type="password" placeholder="Password"  id="password" name="password"></label><br><br>
+            <label>Male  <input type="radio" name="gender" value="male" id="male"></label>
+            <label>Female  <input type="radio" name="gender" value="female" id="female"></label><br><br>
+            <label>Red  <input type="checkbox" value="Red" name="color[]" id="red"></label>
+            <label>green  <input type="checkbox" value="green" name="color[]" id="green"></label>
+            <label>blue  <input type="checkbox" value="blue" name="color[]" id="blue"></label><br><br>
+            <input type="submit" value="Login" name="submit" class="submit">
+        </form>
+</body>
+</html>
